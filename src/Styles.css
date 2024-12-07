@@ -1,0 +1,229 @@
+
+
+   /* Home.css */
+
+   .Home-container{
+    margin-top: -200px;
+   }
+
+
+.welcome-heading h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #004747;
+  align-items: center; 
+ 
+
+}
+
+.sub-heading1 {
+  text-align: left;
+  font-size: 36px;
+  color: black;
+  align-items: center;
+  
+ 
+
+}
+
+
+.sub-heading2 {
+  text-align: left;
+  font-size: 36px;
+  color: black;
+  align-items: center;
+
+}
+
+
+/*Search.css*/
+
+.Search-container {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box; 
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+.FaceRecognition-image {
+  position: absolute;
+  box-sizing: border-box;
+  flex: 5;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  margin-top: 70px;
+  margin-right: 50%;
+  margin-left: 150px;
+  width: 500px;
+  height: 500px;
+}
+
+.Search-content{
+  margin-left: 100px;
+}
+
+.Search-investigation{
+  margin-left: 81px;
+}
+
+.Search-options1{
+  margin-left: -16px;
+  margin-top: 50px;
+  
+}
+
+.Search-searchtypebox{
+    margin-left: -82px;
+    margin-top: -20px;
+    
+}
+
+.Search-searchbutton{
+    margin-top: 40px;
+    margin-left: 718px;
+}
+
+/*SearchBiometrics.css*/
+
+.SearchBiometrics-container{
+  background: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box; 
+  margin-left: -200px;
+  margin-top: -25px;
+}
+
+.Biometrics-investigation{
+    margin-top: 0px;
+    margin-left: 85px;
+    margin-right: 90px;
+}
+
+.Biometrics-photo-box{
+    margin-left: 800px;
+}
+
+.Biometrics-options{
+  margin-top: 5px;
+  margin-left: 198px;
+  margin-bottom: 0px;
+}
+
+.Biometrics-buttons{
+  margin-left: -275px;
+  margin-top: 40px;
+}
+
+.Biometrics-searchbutton{
+  margin-left: 720px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+/*Reports.css*/
+
+.Reports-container{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px; 
+    box-sizing: border-box; 
+  
+}
+
+/*ReportResponse.css*/
+
+.ReportResponse-container{
+  background:  rgb(108, 107, 107);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+
+.Reportbox-container{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+
+.image-pdf{
+    margin-left: 275px;
+    margin-top: -290px;
+}
+
+.DownloadButton-response{
+  margin-top: 70px;
+  margin-left: 275px;
+}
+
+/*SearchResult.css*/
+
+.Searchresult-container{
+  height: auto;
+  width: 100%;
+}
+
+.sr{
+  margin-top: -220px;
+}
+
+/*Crime.css*/
+
+.crimecontainer{
+  width: 100%;
+  height: auto;
+}
+
+.tablecrime{
+  margin-top: 320px;
+}
+
+.namecrime{
+  margin-top: -20px;
+}
+
+.sidebar-police-crime{
+  margin-top: -130px;
+}
+
+/*Victims.css*/
+
+.Victims-container{
+  width: 100%;
+  height: auto;
+}
+
+.tv{
+  margin-top: 300px;
+}
+
+
+
+/*Evidences.css*/
+
+.Evidences-container{
+  width: 100%;
+  height: auto;
+}
+
+.te{
+  margin-top: 300px;
+}

@@ -1,0 +1,126 @@
+
+.FAQ-topic-container{
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Frequent-question p{
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+
+/* FAQandHelp.css */
+
+.accordion {
+  border: 2px solid black;
+  border-radius: 0px;
+  width: 70%;
+  margin-left: 230px;
+}
+
+.accordion-question {
+  background-color: white;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-sign {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* New style to align questions to the left and signs to the right */
+.accordion-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.accordion-sign {
+  margin-left: auto;
+}
+
+.accordion-sign.open::before {
+  content: '-';
+}
+
+.accordion-sign.close::before {
+  content: '+';
+}
+
+.accordion-answer {
+  background-color: #d3e9f5;
+  padding: 10px;
+  color: black;
+}
+
+
+/*OtherQuestions.css*/
+
+.form-OtherQuestions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+}
+
+.input-OtherQuestions {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.input-OtherQuestions:focus {
+  border: 2px solid black;
+}
+
+.textarea-OtherQuestions {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #E0E1FC;
+}
+
+.textarea-OtherQuestions:focus {
+  border: 2px solid black;
+}
+
+.label-OtherQuestions {
+  margin-top: 1rem;
+  color: black;
+  font-weight: normal;
+}
+
+.input-OtherQuestions[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #000066;
+  color: white;
+  border: none;
+}
+
+.OtherQuestions-container{
+  margin-top: 20px;
+  width: 600px;
+  margin-left: 480px;
+  margin-bottom: 35px;
+}

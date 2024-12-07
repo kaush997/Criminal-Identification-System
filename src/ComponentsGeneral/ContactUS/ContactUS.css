@@ -1,0 +1,141 @@
+.ContactUs-container{
+    width:100%;
+    height: auto;
+    display: flex;
+}
+
+.Maintopic-general-PO{
+    color: #000066;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topic-line{
+   width: 1250px;
+    height: 1px;
+   border: 1px solid black;
+}
+
+.Contact-topic-container{
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Location-image{
+    width: 22px;
+    height: 28px;
+    margin-right: 17px;
+}
+
+.Phone-image{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.Email-image{
+    width: 26px;
+    height: 22px;
+    margin-right: 15px;
+}
+
+.contact-details-container{
+    margin-top: 150px;
+    margin-left: -1250px;
+}
+
+.contact1{
+    margin-bottom: 15px;
+}
+
+.contact2{
+    margin-bottom: 15px;
+}
+
+.Map-image{
+    width: 600px;
+    margin-top: 130px;
+    margin-left: 220px;
+}
+
+.ASKQUERIES-container{
+    margin-top: 440px;
+    margin-left: -1145px;
+}
+
+.askqueries-message-container{
+  position: relative;
+  width: 696px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 500px;
+  margin-left: -1000px;
+}
+
+.response-styles-contactus{
+    margin-top: 920px;
+    margin-left: -460px;
+    margin-bottom: 50px;
+}
+
+
+/* comment.css */
+  .form-contact {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .input-contact {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .input-contact:focus {
+    border: 2px solid black;
+  }
+  
+  .textarea-contact {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #E0E1FC;
+  }
+  
+  .textarea-contact:focus {
+    border: 2px solid black;
+  }
+  
+  .label-contact {
+    margin-top: 1rem;
+    color: black;
+    font-weight: normal;
+  }
+  
+  .input-contact[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: #000066;
+    color: white;
+    border: none;
+  }
+  
+.comment-container{
+    margin-top: 500px;
+    margin-left: -950px;
+    width: 600px;
+}
